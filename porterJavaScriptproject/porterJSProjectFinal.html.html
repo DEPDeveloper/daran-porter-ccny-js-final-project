@@ -1,0 +1,57 @@
+<!--Daran E. Porter, Programmer
+The City College of New York
+Web Development Series
+Final Project-Registration Form, and Submission Response.
+-->
+<!Doctype html>
+<html>
+<head>
+<title>
+Porter Registraton Form
+</title>
+</head>
+<style> 
+body
+{
+	background-color:lightblue;
+}
+</style>
+<h1 align="center">Programming Careers</h1>
+<hr />
+<p>Welcome to Programming Careers. This site is for programmers who want to 
+work at their leisure or with a team on assigned Web and Appliations projects. 
+All work will be compensated according to the assigned task. Should you be interested, 
+please fill out the registration form below and someone will contact you.</p>
+
+<img src="coder.jpg" alt="programmer" width="600" hieght="600" align="center">
+
+<body>
+
+<div>
+<p>Register below by entering your name and email address.</p>
+<form>
+  First Name:<br>
+  <input type="text" name="firstname">
+  <br>
+  Last Name:<br>
+  <input type="text" name="lastname">
+  <br>
+  Email Address:<br>
+  <input type="text" name="email">
+  <br>
+</form>
+<button onclick="porterFunction()">Submit</button>
+
+<script>
+function porterFunction(){
+	document.getElementById("demo").innerHTML = "Thank you for submitting your registration form.";
+}
+porterFunction;
+</script>
+<p id="demo"></p>
+
+
+<div>
+</body>
+
+</html>
